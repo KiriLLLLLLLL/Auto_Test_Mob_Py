@@ -15,7 +15,7 @@ def login():
 
 @pytest.fixture()
 def resp():
-    return 500
+    return 200
 
 @pytest.fixture()
 def descr():

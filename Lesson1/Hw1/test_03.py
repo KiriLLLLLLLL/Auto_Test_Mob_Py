@@ -15,7 +15,12 @@ def addPost(token):
         "content": "Пушкабомба"
     }
 
-    res = requests.post(url, headers={'X-Auth-Token': token}, json=params)
+    headers = {
+        "X-Auth-Token": token,
+        "Content-Type": "application/json"
+    }
+
+    res = requests.post(url, data=json.dumps(params), headers=headers)
     return res.status_code
 
 def checkPost(token):
