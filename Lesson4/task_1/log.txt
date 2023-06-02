@@ -1,0 +1,132 @@
+2023-06-02 15:05:18 INFO ====== WebDriver manager ======
+2023-06-02 15:05:18 INFO Driver [C:\Users\User\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+2023-06-02 15:05:19 INFO Test1 Starting
+2023-06-02 15:05:21 INFO Test2 Starting
+2023-06-02 15:05:22 INFO Test3 Starting
+2023-06-02 15:05:24 INFO Test4 Starting
+2023-06-02 15:05:25 ERROR Exception while operate with ('xpath', '//*[@id="contact"]/div[1]/label')
+Traceback (most recent call last):
+  File "C:\PycharmProjects\Auto_Test_Mob_Py\Lesson4\task_1\testpage.py", line 31, in enter_text_into_field
+    field.clear()
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 117, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 403, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidElementStateException: Message: invalid element state
+  (Session info: chrome=114.0.5735.90)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0031A813+48355]
+	(No symbol) [0x002AC4B1]
+	(No symbol) [0x001B5220]
+	(No symbol) [0x001DB37A]
+	(No symbol) [0x001FA73C]
+	(No symbol) [0x001D9A36]
+	(No symbol) [0x001FAA94]
+	(No symbol) [0x0020C922]
+	(No symbol) [0x001FA536]
+	(No symbol) [0x001D82DC]
+	(No symbol) [0x001D93DD]
+	GetHandleVerifier [0x0057AABD+2539405]
+	GetHandleVerifier [0x005BA78F+2800735]
+	GetHandleVerifier [0x005B456C+2775612]
+	GetHandleVerifier [0x003A51E0+616112]
+	(No symbol) [0x002B5F8C]
+	(No symbol) [0x002B2328]
+	(No symbol) [0x002B240B]
+	(No symbol) [0x002A4FF7]
+	BaseThreadInitThunk [0x75E100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x773B7B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x773B7B1E+238]
+
+2023-06-02 15:05:25 ERROR Exception while operate with ('xpath', '//*[@id="contact"]/div[2]/label')
+Traceback (most recent call last):
+  File "C:\PycharmProjects\Auto_Test_Mob_Py\Lesson4\task_1\testpage.py", line 31, in enter_text_into_field
+    field.clear()
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 117, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 403, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidElementStateException: Message: invalid element state
+  (Session info: chrome=114.0.5735.90)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0031A813+48355]
+	(No symbol) [0x002AC4B1]
+	(No symbol) [0x001B5220]
+	(No symbol) [0x001DB37A]
+	(No symbol) [0x001FA73C]
+	(No symbol) [0x001D9A36]
+	(No symbol) [0x001FAA94]
+	(No symbol) [0x0020C922]
+	(No symbol) [0x001FA536]
+	(No symbol) [0x001D82DC]
+	(No symbol) [0x001D93DD]
+	GetHandleVerifier [0x0057AABD+2539405]
+	GetHandleVerifier [0x005BA78F+2800735]
+	GetHandleVerifier [0x005B456C+2775612]
+	GetHandleVerifier [0x003A51E0+616112]
+	(No symbol) [0x002B5F8C]
+	(No symbol) [0x002B2328]
+	(No symbol) [0x002B240B]
+	(No symbol) [0x002A4FF7]
+	BaseThreadInitThunk [0x75E100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x773B7B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x773B7B1E+238]
+
+2023-06-02 15:05:25 ERROR Exception while operate with ('xpath', '//*[@id="contact"]/div[3]/label')
+Traceback (most recent call last):
+  File "C:\PycharmProjects\Auto_Test_Mob_Py\Lesson4\task_1\testpage.py", line 31, in enter_text_into_field
+    field.clear()
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 117, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 403, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "c:\pycharmprojects\auto_test_mob_py\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidElementStateException: Message: invalid element state
+  (Session info: chrome=114.0.5735.90)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0031A813+48355]
+	(No symbol) [0x002AC4B1]
+	(No symbol) [0x001B5220]
+	(No symbol) [0x001DB37A]
+	(No symbol) [0x001FA73C]
+	(No symbol) [0x001D9A36]
+	(No symbol) [0x001FAA94]
+	(No symbol) [0x0020C922]
+	(No symbol) [0x001FA536]
+	(No symbol) [0x001D82DC]
+	(No symbol) [0x001D93DD]
+	GetHandleVerifier [0x0057AABD+2539405]
+	GetHandleVerifier [0x005BA78F+2800735]
+	GetHandleVerifier [0x005B456C+2775612]
+	GetHandleVerifier [0x003A51E0+616112]
+	(No symbol) [0x002B5F8C]
+	(No symbol) [0x002B2328]
+	(No symbol) [0x002B240B]
+	(No symbol) [0x002A4FF7]
+	BaseThreadInitThunk [0x75E100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x773B7B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x773B7B1E+238]
+
+2023-06-02 15:05:29 INFO Error Form successfully submitted 
+2023-06-02 15:05:29 INFO Test5 Starting
+2023-06-02 15:05:29 WARNING Forcing soap:address location to HTTPS
+2023-06-02 15:05:29 WARNING Forcing soap:address location to HTTPS
+2023-06-02 15:05:30 INFO Test6 Starting
+2023-06-02 15:05:31 INFO Test7 Starting
